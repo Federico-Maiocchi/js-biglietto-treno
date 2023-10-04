@@ -6,6 +6,6 @@
 
 - calcolare il prezzo del biglietto in base ai Km
     - SE l'utente è < 18 anni 
-        - applicare lo sconto del 20% per minorenni
+        - applicare lo sconto del 20%
     - ALTRIMENTI SE è > 65 anni 
-        - applicare lo sconto del 40% per gli over 65
+        - applicare lo sconto del 40%
