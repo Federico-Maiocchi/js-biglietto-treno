@@ -1,7 +1,11 @@
 # Prezzo viaggio utente
 
 - chiedere all'utente il numero di chilometri che vuole percorrere
-- chiedere all'utente l'eta del passeggero
+
+- chiedere all'utente l'eta
+
 - calcolare il prezzo del biglietto in base ai Km
-- applicare lo sconto del 20% per minorenni
-- applicare lo sconto del 40% per gli over 65
+    - SE l'utente è < 18 anni 
+        - applicare lo sconto del 20% per minorenni
+    - ALTRIMENTI SE è > 65 anni 
+        - applicare lo sconto del 40% per gli over 65
