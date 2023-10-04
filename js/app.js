@@ -6,10 +6,12 @@
 // - chiedere all'utente il numero di chilometri che vuole percorrere
 let kilometersNumbers = prompt('Ciao utente, quanti chilometri vuoi percorrere?');
 kilometersNumbers = parseInt(kilometersNumbers);
+console.log('kilometri user')
 console.log(kilometersNumbers);
 // - chiedere all'utente l'eta
 let userAge = prompt('Quanti anni hai?');
 userAge = parseInt(userAge);
+console.log('Age user')
 console.log (userAge)
 // console.log (typeof kilometersNumbers,typeof userAge);
 
@@ -45,9 +47,14 @@ console.log(discount)
 }
 
 let totalPriceDiscount = totalPrice - discount;
-console.log ('prezzo totale sconto')
+console.log ('prezzo totale sconto');
 // console.log(totalPriceDiscount)
 
 totalPriceDiscount = totalPriceDiscount.toFixed(2);
-console.log(totalPriceDiscount)
+console.log(totalPriceDiscount);
+
+let price = totalPriceDiscount
+
+const priceDomElement = document.getElementById('price');
+priceDomElement.innerHTML = price;
 
