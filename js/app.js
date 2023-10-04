@@ -41,7 +41,7 @@ let discount;
     }
     // - ALTRIMENTI
     else {
-        totalPrice;
+        discount = 0;
     //          - non si hanno sconti
         console.log('niente sconto');
     }
